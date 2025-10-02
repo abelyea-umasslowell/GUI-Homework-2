@@ -1,0 +1,120 @@
+/*
+File: pacific.css
+GUI Assignment: Style a Site with External CSS
+Andrew Belyea, UMass Lowell Computer Science, andrew_belyea@student.uml.edu
+Copyright (c) 2025 by Andrew. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by AB on October 1, 2025 */
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+    display: block;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    background-color: #00569f;
+    background-image: url(ptrbackground.jpg);
+    background-position: left top;
+    background-repeat: repeat-x;
+    color: #666666;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 70px;
+    margin-left: 10px;
+}
+
+#wrapper {
+    width: 80%;
+    min-width: 600px;
+    margin: 0 auto;
+    background-color: #90C8E3;
+}
+
+nav {
+    float: left;
+    width: 190px;
+}
+
+nav ul {
+    font-size: 1.2em;
+    margin: 0;
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000032;
+}
+
+h1 {
+	background-color: #000033;
+    background-image: url(sunset.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    padding: 10px;
+    color: white;
+}
+
+h2 {
+    color: #3399CC;
+}
+
+h1, h2 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+#contact {
+    font-size: 90%;
+}
+
+dt {
+    color: #000033;
+}
+
+footer {
+    font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+    font-size: 0.75em;
+    background-color: white;
+    padding: 20px;
+    margin-left: 190px;
+}
+
+img {
+    margin-right: 30px;
+    float: left;
+}
+
+.resort {
+    color: #5B7F9F;
+    font-weight: bold;
+}
+
+#content {
+    background-color: white;
+	padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    margin-left: 190px;
+}
+
+#content ul {
+    list-style-image: url(marker.gif);
+	padding: 0;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
